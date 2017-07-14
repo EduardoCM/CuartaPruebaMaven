@@ -3,6 +3,9 @@ package com.castillo.bean;
 public class Person {
 	
 	private String name;
+	
+	
+	private String lastName;
 
 	public String getName() {
 		return name;
@@ -11,6 +14,16 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	
 	
 	
 	

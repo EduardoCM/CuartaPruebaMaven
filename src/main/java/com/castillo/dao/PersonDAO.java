@@ -7,4 +7,9 @@ public class PersonDAO {
 		
 		return null;
 	}
+	
+	
+	public String newMethod(String name){
+		return null;
+	}
 }
